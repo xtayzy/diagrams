@@ -1,0 +1,50 @@
+
+.container {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 500px;
+    width: 100%;
+    background-color: #a8a8a8;
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input {
+        width: 98.8%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+.diagrams {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.block-diagram {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.diagram {
+    width: 60px;
+    height: 150px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.percentDiagram {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
